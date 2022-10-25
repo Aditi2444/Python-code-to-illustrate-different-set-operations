@@ -1,0 +1,15 @@
+# define sets
+E = {2, 4, 4, 9, 0};
+N = {8, 4, 2, 2, 2};
+
+# set union
+print("Union of E and N is",E | N)
+
+# set intersection
+print("Intersection of E and N is",E & N)
+
+# set difference
+print("Difference of E and N is",E - N)
+
+# set symmetric difference
+print("Symmetric difference of E and N is",E ^ N)
